@@ -8,17 +8,20 @@ git commit -m "hhjjhjhdjhd" //gives message
 git push //pushes all the code to github
 git status //checks the status
 git remote -v //tells us about the location of remote repo
-git branch //tells us about the branches
-git checkout (branch-name) //makes new branch name
+git branch (name) //tells us about the branches and creates new branch
+git checkout (branch-name) //switch to new branch
 git merge (merge to exixting branch)
 git reset (file name)//to undo
 git diff //tells us about the differences we made
 git remote add origin "location" //for the first time we have to use this code then the second one
 git push -u origin head //pushes code to origin
-------------------------------------------
-after merging it asks from pull request  |
- and then ,merge in git hub  (git pull)  |
-------------------------------------------             
+-------------------------------------------
+after merging it asks from pull request    |
+ and then ,merge in git hub  (git pull)    |
+if we dont want to add and commit to avoid |
+conflict we save it in stash file          |
+git stash "message"                        |
+-------------------------------------------             
 
 ------------------------------------------
 to be away from conflict we have to add   |
